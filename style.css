@@ -1,0 +1,75 @@
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(75px, 5);
+    grid-template-rows: repeat(75px, 6);
+    gap: 5px;
+    width: 400px;
+}
+
+body {
+    background-color: rgb(150,150,150);
+}
+
+input, button {
+    background-color: rgb(160,160,160);
+}
+
+.letter12 {
+    grid-row-start: 0;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+
+.letter13 {
+    grid-row-start: 0;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-start: 3;
+}
+
+.letter14 {
+    grid-row-start: 0;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-start: 4;
+}
+
+.letter15 {
+    grid-row-start: 0;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-column-start: 5;
+}
+
+.gameBoard div {
+    width: 75px;
+    height: 75px;
+    font-size: 75px;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently */
+     
+}
+
+.gameBoard .green {
+    background-color: green;
+}
+
+.gameBoard .yellow {
+    background-color: rgb(255,204,0);
+}
+
+.gameBoard .grey {
+    background-color: grey;
+}
+
+.words {
+    background-color: rgb(194, 194, 194);
+    border: 3px solid rgb(4, 199, 85);
+    width: 400;
+}
